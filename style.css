@@ -16,3 +16,9 @@ body{
     
     border-radius: 5px;
 }
+#resetButton{
+    padding: 15px;
+    background-color: rgb(226, 43, 89);
+    color: white;
+    border-radius: 10px;
+}
