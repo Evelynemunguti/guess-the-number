@@ -11,3 +11,14 @@ let compNumber = Math.Floor(Math.random()*100)+1;
 const guessInput = document.getElementById ("guessInput");
 const submitGuess = document.getElementById ("submitGuess");
 const resultMessage = document.getElementById("resultMessage");
+
+// To Add a click event to the button
+submitGuess.addEventListener("click", 
+    function(){
+const guess = Number(guessInput.Value); //helps turn input into a number
+
+
+
+
+
+})
