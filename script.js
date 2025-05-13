@@ -11,6 +11,7 @@ let compNumber = Math.floor(Math.random()*100)+1;
 const guessInput = document.getElementById ("guessInput");
 const submitGuess = document.getElementById ("submitGuess");
 const resultMessage = document.getElementById("resultMessage");
+const resetButton = document.getElementById("resetButton");
 
 // To Add a click event to the button
 submitGuess.addEventListener("click", 
@@ -28,3 +29,11 @@ else if (guess > compNumber){
 }
 
 });
+
+//to reset a button
+resetButton.addEventListener("click", function () {
+    compNumber = Math.floor(Math.random() * 100) + 1; // new number
+    guessInput.value = ""; // clear input field
+    resultMessage.textContent = ""; // clear message
+  });
+  
