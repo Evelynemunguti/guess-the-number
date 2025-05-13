@@ -1,0 +1,18 @@
+body{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    justify-items: center;
+    
+}
+
+#submitGuess{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+#guessInput{
+    padding: 10px;
+    
+    border-radius: 5px;
+}
