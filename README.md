@@ -29,6 +29,8 @@ A simple JavaScript game where the player tries to guess a random number between
 - Improve styling and mobile responsiveness
 - Add sound effects or animations
 
+Live Preview (https://evelynemunguti.github.io/guess-the-number/)
+
 ---
 
 
